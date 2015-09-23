@@ -104,6 +104,14 @@ textarea {
     background-color: #ececec;    
 }
 
+.cage-item {
+    max-width: 200px;
+    display: inline-block;
+}
+
+.cage-item img {
+    max-width: 100%;
+}
 
 
 
