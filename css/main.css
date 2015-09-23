@@ -134,6 +134,10 @@ body {
     z-index: 500;
 }
 
+.parallax-friends {
+    position: fixed;
+}
+
 
 /* ==========================================================================
    Helper classes
