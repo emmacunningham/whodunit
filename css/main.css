@@ -95,7 +95,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.jumbotron {
+    background-image: url('http://speakonitcomics.com/wp-content/uploads/2015/02/713587-thundercats_lion_o_by_romauro.jpg');
+    background-size: cover;    
+}
 
+.jumbotron h1 {
+    background-color: #ececec;    
+}
 
 
 
