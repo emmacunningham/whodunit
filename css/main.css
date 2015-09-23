@@ -116,7 +116,7 @@ textarea {
 }
 
 body {
-    height: 2600px;
+    height: 5000px;
     background: #c928b1; /* Old browsers */
     background: -moz-linear-gradient(top, #c928b1 0%, #28d6d0 48%, #e58c54 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c928b1), color-stop(48%,#28d6d0), color-stop(100%,#e58c54)); /* Chrome,Safari4+ */
@@ -125,6 +125,13 @@ body {
     background: -ms-linear-gradient(top, #c928b1 0%,#28d6d0 48%,#e58c54 100%); /* IE10+ */
     background: linear-gradient(to bottom, #c928b1 0%,#28d6d0 48%,#e58c54 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c928b1', endColorstr='#e58c54',GradientType=0 );
+}
+
+.parallax-bar {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    z-index: 500;
 }
 
 
