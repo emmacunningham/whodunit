@@ -1,14 +1,13 @@
 $(document).ready(function() {
 	
 
-	var squid = new Squid('0px', '50%', '0', '80%');
+	var squid = new Squid('0px', '50%', '0px', '80%');
 
 
-	setTimeout(function() {
 
-		var s = skrollr.init();
+	var s = skrollr.init();
 
-	}, 500);
+
 
 });
 
