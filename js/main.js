@@ -8,7 +8,7 @@ $(document).ready(function() {
 	var i = 15;
 	do {
 		var squidLeftStart = randomIntFromInterval(0, 100);
-		var squidTopStart = i * 10;
+		var squidTopStart = randomIntFromInterval(0, 100);
 
 		var squidLeftEnd = 100 / i;
 		var squidTopEnd = 100 / i;		
