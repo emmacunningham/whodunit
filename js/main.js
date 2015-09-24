@@ -12,7 +12,7 @@ $(document).ready(function() {
 		var squidTopStart = randomIntFromInterval(0, 100);
 
 		var squidLeftEnd = randomIntFromInterval(0, 100);;
-		var squidTopEnd = 100;		
+		var squidTopEnd = randomIntFromInterval(0, 100);		
 
 		var squid = new Squid(squidTopStart + '%', squidTopEnd + '%', squidLeftStart + '%', squidLeftEnd + '%');
 		i--;
