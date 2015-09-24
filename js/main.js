@@ -14,6 +14,20 @@ $(document).ready(function() {
 	}
 	while (i > 0);
 
+	var i = 15;
+	do {
+
+		var squidLeftStart = 1200/i;
+		var squidTopStart = 0;
+
+		var squidLeftEnd = 150 / i;
+		var squidTopEnd = 120 / i;		
+
+		var squid = new Squid(squidTopStart + '%', squidTopEnd + '%', squidLeftStart + '%', squidLeftEnd + '%');
+		i--;
+	}
+	while (i > 0);	
+
 	var s = skrollr.init();
 
 
