@@ -1,9 +1,14 @@
 $(document).ready(function() {
 	
 
-	var squid = new Squid('0px', '50%', '0px', '80%');
+	var squid = new Squid('0%', '80%', '0%', '80%');
+	var i = 15;
+	do {
 
 
+	i--;
+	}
+	while (i > 0);
 
 	var s = skrollr.init();
 
@@ -16,8 +21,8 @@ var Squid = function(startTop, endTop, startLeft, endLeft) {
 //        <img class="parallax-friends" style="left: 30px;" src="http://www.mariowiki.com/images/thumb/9/9a/BlooperSPM.png/107px-BlooperSPM.png" data-start="top: 0px;" data-end="top: 50%" />	
 
 
-	imgEl.attr('data-start', 'top: ' + startTop + ';');
-	imgEl.attr('data-end', 'top: ' + endTop + ';');
+	imgEl.attr('data-start', 'top: ' + startTop + '; left: ' + startLeft + ';');
+	imgEl.attr('data-end', 'top: ' + endTop + ';' + '; left: ' + endLeft + ';');
 
 	$('body').prepend(imgEl);
 
