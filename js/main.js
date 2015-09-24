@@ -5,6 +5,7 @@ var randomIntFromInterval = function (min,max) {
 
 $(document).ready(function() {
 
+	// These should go down
 	var i = 15;
 	do {
 		var squidLeftStart = randomIntFromInterval(0, 100);
@@ -13,11 +14,12 @@ $(document).ready(function() {
 		var squidLeftEnd = randomIntFromInterval(0, 100);;
 		var squidTopEnd = 100;		
 
-		var squid = new Squid(squidLeftStart + '%', squidLeftEnd + '%', squidTopStart + '%', squidTopEnd + '%');
+		var squid = new Squid(squidTopStart + '%', squidTopEnd + '%', squidLeftStart + '%', squidLeftEnd + '%');
 		i--;
 	}
 	while (i > 0);
 
+	// These should come up
 	var i = 15;
 	do {
 
