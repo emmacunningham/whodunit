@@ -23,10 +23,10 @@ $(document).ready(function() {
 	var i = 15;
 	do {
 
-		var squidLeftStart = 1200/i;
+		var squidLeftStart = randomIntFromInterval(0, 100);
 		var squidTopStart = 0;
 
-		var squidLeftEnd = 150 / i;
+		var squidLeftEnd = randomIntFromInterval(0, 100);
 		var squidTopEnd = 120 / i;		
 
 		var squid = new Squid(squidTopStart + '%', squidTopEnd + '%', squidLeftStart + '%', squidLeftEnd + '%');
