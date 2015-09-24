@@ -8,7 +8,7 @@ $(document).ready(function() {
 	// These should go down
 	var i = 15;
 	do {
-		var squidLeftStart = randomIntFromInterval(0, 100);
+		var squidLeftStart = randomIntFromInterval(-20, 100);
 		var squidTopStart = randomIntFromInterval(0, 100);
 
 		var squidLeftEnd = randomIntFromInterval(0, 100);;
