@@ -10,8 +10,8 @@ $(document).ready(function() {
 		var squidLeftStart = randomIntFromInterval(0, 100);
 		var squidTopStart = randomIntFromInterval(0, 100);
 
-		var squidLeftEnd = 100 / i;
-		var squidTopEnd = 100 / i;		
+		var squidLeftEnd = 100;
+		var squidTopEnd = 100;		
 
 		var squid = new Squid(squidLeftStart + '%', squidLeftEnd + '%', squidTopStart + '%', squidTopEnd + '%');
 		i--;
