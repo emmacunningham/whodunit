@@ -1,12 +1,16 @@
 $(document).ready(function() {
-	
 
-	var squid = new Squid('0%', '80%', '0%', '80%');
 	var i = 15;
 	do {
 
+		var squidLeftStart = i * 10;
+		var squidTopStart = i * 10;
 
-	i--;
+		var squidLeftEnd = 100 / i;
+		var squidTopEnd = 100 / i;		
+
+		var squid = new Squid(squidLeftStart + '%', squidLeftEnd + '%', squidTopStart + '%', squidTopEnd + '%');
+		i--;
 	}
 	while (i > 0);
 
