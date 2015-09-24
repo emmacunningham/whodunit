@@ -1,8 +1,14 @@
 $(document).ready(function() {
 	
 
-	var squid = new Squid('0', '50%', '0', '80%');
+	var squid = new Squid('0px', '50%', '0', '80%');
 
+
+	setTimeout(function() {
+
+		var s = skrollr.init();
+
+	}, 500);
 
 });
 
@@ -15,9 +21,6 @@ var Squid = function(startTop, endTop, startLeft, endLeft) {
 	imgEl.attr('data-end', 'top: ' + endTop + ';');
 
 	$('body').prepend(imgEl);
-
-
-	var s = skrollr.init();
 
 	return imgEl;
 
