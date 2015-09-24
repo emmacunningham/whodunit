@@ -136,6 +136,7 @@ body {
 
 .parallax-friends {
     position: fixed;
+    z-index: 500;
 }
 
 
